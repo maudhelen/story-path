@@ -1,0 +1,74 @@
+.navbar-brand {
+    color: orange !important;
+    font-weight: bold;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.btn-custom {
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: darkorange;
+    color:black
+}
+
+.heading {
+    color: orange;  /* Sets the text color to orange */
+    font-weight: bold;  /* Makes the text bold */
+}
+
+.navbar-brand-custom {
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase; /* Makes the text all-caps */
+}
+
+.btn-add-project {
+    border: 2px solid orange; /* Sets the border to orange */
+    color: orange; /* Sets the text color to orange */
+}
+
+.btn-add-project:hover {
+    background-color: darkorange;
+    color: white;
+    outline: darkorange;
+
+}
+
+.badge-published {
+    background-color:#28a745;
+    color: white;
+}
+
+.badge-unpublished {
+    background-color:darkgray;
+    color: white;
+}
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    padding-bottom: 50px; /* Ensure space for the footer */
+}
+
+.rounded-box {
+    border-radius: 10px;  /* Adjust the value as needed for more or less rounding */
+}
